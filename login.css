@@ -1,0 +1,117 @@
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css);
+body{
+    background: skyblue;
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.login-box{
+    width: 340px;
+  height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+   
+
+}
+
+
+.login-box svg{
+    width: 30px;
+   
+    color: #1779f2; 
+    
+}
+
+.login-box h1{
+    float: left;
+    font-size: 26px;
+   
+    padding: 13px 0;
+    border-bottom:  3px solid #1779f2 ;
+  
+    margin-bottom: 0px;
+    margin-left: 65px;
+}
+hr{
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 7px;
+  border-top: 1px silver;
+}
+p{
+    font-size: 14px;
+    margin-left: 65px;
+    margin-top: 0%;
+    padding-top: 0px;
+    color: #ccc;
+}
+
+.data {
+    width: 100%;
+    overflow: hidden;
+    padding: 8px 0;
+
+    font-size: 20px;
+   margin: 2px 0;
+   border: 2px;
+   margin-bottom: 6px;
+ margin-left: 30px;
+  
+}
+.detail label{
+padding-left: 35px;
+margin: 0%;
+font-size: 14px;
+font-weight: bold;
+
+
+
+
+    
+}
+input{
+    padding: 0 5px;
+    height: 35px;
+    width: 220px;
+
+    font-size: 15px;
+ 
+    background: none;
+    outline: none;
+    border: 1px solid #ccc;
+    ;
+    margin-bottom: 0px;
+    
+
+}
+button{
+
+        background-color: #1779f2;
+        border: none;
+        color: white;
+        padding: 6px 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin-left: 65px;
+        border-radius: 4px;
+        margin-top: 15px;
+      }
+
+
+
+      input[type="text"] {
+        text-transform: lowercase;
+      }
+      
+  .eye{
+      position: absolute;
+      top: 242px;
+
+  }
+  #hide1{
+      display: none;
+  }
